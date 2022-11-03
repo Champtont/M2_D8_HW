@@ -31,6 +31,13 @@ nav {
   background-color: var(--honeydew-);
   text-align: center;
 }
+.lead {
+  font-weight: bold;
+  color: var(--saffron);
+}
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.459);
+}
 #deal-text {
   background-color: var(--honeydew-);
 }
