@@ -14,10 +14,35 @@ body {
   aspect-ratio: 1.1;
   border-radius: 50%;
 
-  border-color: var(--champagne);
+  border-color: var(--tangerine);
   border-width: 2pt;
   border-style: dashed;
 }
 nav {
-  background-color: var(--tangerine);
+  background-color: var(--champagne);
+}
+.nav-link {
+  color: var(--skyblue-);
+}
+.card-body {
+  background-color: var(--champagne);
+}
+.jumbotron {
+  background-color: var(--honeydew-);
+  text-align: center;
+}
+#deal-text {
+  background-color: var(--honeydew-);
+}
+#welcome-summer .card {
+  box-shadow: black 0px 0px 30px;
+}
+footer {
+  background-color: var(--champagne);
+  color: var(--skyblue-);
+}
+footer > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
