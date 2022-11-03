@@ -1,0 +1,23 @@
+:root {
+  --honeydew-: #d9e5d6;
+  --skyblue-: #00a7e1;
+  --champagne: #eddea4;
+  --tangerine: #f7a072;
+  --saffron: #ff9b42;
+}
+
+body {
+  background-color: var(--skyblue-);
+}
+#logo-box {
+  width: 60px;
+  aspect-ratio: 1.1;
+  border-radius: 50%;
+
+  border-color: var(--champagne);
+  border-width: 2pt;
+  border-style: dashed;
+}
+nav {
+  background-color: var(--tangerine);
+}
