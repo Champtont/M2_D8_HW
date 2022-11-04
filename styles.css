@@ -9,6 +9,9 @@
 body {
   background-color: var(--skyblue-);
 }
+h1 {
+  color: var(--skyblue-);
+}
 #logo-box {
   width: 60px;
   aspect-ratio: 1.1;
@@ -20,6 +23,9 @@ body {
 }
 nav {
   background-color: var(--champagne);
+}
+svg {
+  color: var(--skyblue-);
 }
 .nav-link {
   color: var(--skyblue-);
@@ -51,5 +57,27 @@ footer {
 footer > .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.carousel-item {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.background1 {
+  background-color: var(--saffron);
+}
+.background2 {
+  background-color: var(--honeydew-);
+}
+.background3 {
+  background-color: var(--champagne);
+}
+#testimonials p {
+  font-size: 16pt;
+  text-align: center;
+}
+.carousel-item div:nth-child(2) {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }

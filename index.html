@@ -34,7 +34,21 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
@@ -256,17 +270,22 @@
         </div>
       </div>
       <!--Deal Of the Day-->
-      <div class="container mt-1 mb-1 d-none d-sm-block">
+      <div
+        class="container mt-1 mb-1 d-none d-sm-block p-0"
+        style="overflow: hidden; width: 100%; display: flex"
+      >
         <h2>Deal of the Day</h2>
+
         <div class="row">
-          <div style="width: 66%">
+          <div class="col-9 p-0">
             <img
               src="https://www.gohawaii.com/sites/default/files/styles/image_gallery_bg_xl/public/hero-unit-images/Punaluu%20Black%20Sand%20Beach.jpg?itok=NApJ7p02"
               class="img-fluid"
+              style="width: 100%"
               alt=""
             />
           </div>
-          <div id="deal-text" style="width: 33%" class="p-1">
+          <div id="deal-text" class="col-3 pt-2">
             <h5>Black Sand Escape</h5>
             <h6>For today only!</h6>
             <p>
@@ -276,11 +295,233 @@
           </div>
         </div>
       </div>
+      <!--Last Minute-->
+      <div id="last-minute" class="container">
+        <h2>Last Minute Deals</h2>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="https://www.telegraph.co.uk/content/dam/Travel/2016/September/pittsburg-cityscape-AP-TRAVEL.jpg"
+                    style="width: 100%; height: 100%; object-fit: cover"
+                    class="image-fluid rounded"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="https://www.telegraph.co.uk/content/dam/Travel/2016/September/pittsburg-cityscape-AP-TRAVEL.jpg"
+                    class="img-fluid rounded"
+                    style="width: 100%; height: 100%; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="https://www.telegraph.co.uk/content/dam/Travel/2016/September/pittsburg-cityscape-AP-TRAVEL.jpg"
+                    class="img-fluid rounded"
+                    style="width: 100%; height: 100%; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img
+                    src="https://www.telegraph.co.uk/content/dam/Travel/2016/September/pittsburg-cityscape-AP-TRAVEL.jpg"
+                    class="img-fluid rounded"
+                    style="width: 100%; height: 100%; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Testimonials-->
+      <div id="testimonials" class="container mb-3">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active background1">
+              <div class="row justify-content-between p-sm-1 p-md-3">
+                <div
+                  class="celeb-photo rounded-circle"
+                  style="height: 200px; width: 200px; overflow: hidden"
+                >
+                  <img
+                    src="https://hips.hearstapps.com/hmg-prod/images/cardi-b-attends-the-2021-american-music-awards-red-carpet-news-photo-1667227378.jpg?crop=0.668xw:1.00xh;0.145xw,0&resize=640:*"
+                    class="image-fluid"
+                    style="height: 100%; width: 100%; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <p>
+                    I don't know about this traveling agency, but Courtney H. is
+                    the best web-developer!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item background2">
+              <div class="row justify-content-between p-sm-1 p-md-3">
+                <div
+                  class="celeb-photo rounded-circle"
+                  style="height: 200px; width: 200px; overflow: hidden"
+                >
+                  <img
+                    src="https://m.media-amazon.com/images/M/MV5BMTg1NjQwMzU4MF5BMl5BanBnXkFtZTgwNTk5NjQ4NjE@._V1_.jpg"
+                    class="img-fluid"
+                    style="height: 100%; width: 100%; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <p>
+                    I don't know about this traveling agency, but Courtney H. is
+                    the best web-developer!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item background3">
+              <div class="row justify-content-between p-sm-1 p-md-3">
+                <div
+                  class="celeb-photo rounded-circle"
+                  style="height: 200px; width: 200px; overflow: hidden"
+                >
+                  <img
+                    src="https://www.elnacional.cat/enblau/uploads/s1/14/08/54/22/camila-cabello-instagram_1_630x630.jpeg"
+                    class="img-fluid"
+                    style="height: 100%; width: 100%; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <p>
+                    I don't know about this traveling agency, but Courtney H. is
+                    the best web-developer!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-target="#carouselExampleIndicators"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-target="#carouselExampleIndicators"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+      </div>
     </div>
     <footer>
       <div class="container p-1">
         <div><p class="m-0">Get Going Company Info</p></div>
-        <div><button class="btn btn-light">Contact Us</button></div>
+        <div>
+          <button
+            class="btn"
+            style="background-color: var(--tangerine); color: var(--skyblue-)"
+          >
+            Contact Us
+          </button>
+        </div>
       </div>
     </footer>
     <script
