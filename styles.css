@@ -81,3 +81,6 @@ footer > .container {
   justify-content: center;
   align-items: center;
 }
+ol li {
+  opacity: 0;
+}
